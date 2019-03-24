@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="ev1.css">
+  <title></title>
+</head>
+<body>
+
+<div class="topo">
+  <div class="resultados">
+    <span id="numPast1"></span>
+    <span id="numPast2"></span>
+    <span id="numScreen"></span>
+  </div>
+</div>
+
+<div class="calc">
+  <div class="numeros">
+    <button onclick="clearNum();" id="clear" type="button" name="button" class="bot">C</button>
+    <button id="divNum" type="button" name="button" class="bot">/</button>
+    <button id="multNum" type="button" name="button" class="bot">*</button>
+    <button id="subNum" type="button" name="button" class="bot">-</button><br>
+    <button id="siete" type="button" name="button" class="bot">7</button>
+    <button id="ocho" type="button" name="button" class="bot">8</button>
+    <button id="nueve" type="button" name="button" class="bot">9</button>
+    <button id="somaNum" type="button" name="button" class="bot">+</button><br>
+    <button id="cuatro" type="button" name="button" class="bot">4</button>
+    <button id="cinco" type="button" name="button" class="bot">5</button>
+    <button id="seis" type="button" name="button" class="bot">6</button>
+    <button id="puntoNum" type="button" name="button" class="bot">.</button><br>
+    <button id="uno" type="button" name="button" class="bot">1</button>
+    <button id="dos" type="button" name="button" class="bot">2</button>
+    <button id="tres" type="button" name="button" class="bot">3</button>
+    <button id="resultNum" type="button" name="button" class="bot">=</button><br>
+    <button id="cero" type="button" name="button" class="bot">0</button>
+  </div>
+</div>
+
+<div class="bottom">
+  <h4>Usted puede utilizar el teclado.<br></h4>
+  <h5>Backspace = clear<br>Enter = resultado</h5>
+</div>
+
+<script src="ev1.js" charset="utf-8">addNum();</script>
+</body>
+</html>

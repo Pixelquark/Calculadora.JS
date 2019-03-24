@@ -1,0 +1,51 @@
+body{
+  margin-top: 100px;
+  font-family: arial, sans-serif;
+}
+
+.topo, .calc{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: right;
+}
+.bottom{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+.numeros{
+  border: 1px solid #AAAAAA;
+}
+#cero{
+  width: 230px;
+}
+#numPast1, #numPast2{
+  color: #707070;
+  text-align: left;
+}
+#numScreen{
+  text-align: right;
+}
+
+.resultados{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: right;
+  border: 1px solid #AAAAAA;
+  min-width: 226px;
+  min-height: 50px;
+  margin-bottom: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.bot{
+  margin: 3px;
+  height: 40px;
+  width: 30px;
+}
